@@ -11,15 +11,11 @@ class MoviesView(ListView):
     queryset = Movie.objects.filter(draft=False)
 
 
-
-
 class MovieDetailView(DetailView):
     """Полное описание фильма"""
 
     model = Movie
     slug_field = 'url'
-
-
 
 
 class AddReview(View):
