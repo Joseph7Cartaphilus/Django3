@@ -119,7 +119,7 @@ class Rating(models.Model):
 
 class Reviews(models.Model):
     """Отзывы"""
-    email = models.EmailField
+    email = models.EmailField()
     name = models.CharField('Имя', max_length=100)
     text = models.TextField('Сообщение', max_length=2000)
     parent = models.ForeignKey('self', verbose_name='Родитель', on_delete=models.SET_NULL, blank=True, null=True)
