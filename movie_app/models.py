@@ -77,6 +77,8 @@ class Movie(models.Model):
 
     def get_review(self):
         return self.reviews_set.filter(parent__isnull=True)
+
+
 class MovieShorts(models.Model):
     """Кадры из Фильма"""
     title = models.CharField('Заголовок', max_length=100)
