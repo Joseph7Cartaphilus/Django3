@@ -5,6 +5,7 @@ from django.views.generic.base import View
 from django.views.generic import ListView, DetailView
 from .models import Movie, Category, Actor, Genre, Rating, Reviews
 from .forms import ReviewsForm, RatingForm
+from django.conf import settings
 
 
 class GenreView:
@@ -34,6 +35,7 @@ class MovieDetailView(GenreView, DetailView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['star_form'] = RatingForm()
+        context["form"] = ReviewsForm()
         return context
 
 

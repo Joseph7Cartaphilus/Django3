@@ -2,3 +2,4 @@ django==4.1.5
 Pillow==9.4.0
 psycopg2==2.9.5
 django-ckeditor==6.5.1
+django-recaptcha==3.0.0
