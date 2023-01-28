@@ -14,3 +14,5 @@ class ContactView(CreateView):
         form.save()
         send(form.instance.email)
         return super().form_valid(form)
+
+
