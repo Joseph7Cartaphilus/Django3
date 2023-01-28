@@ -4,8 +4,14 @@
 
 'venv\Scripts\activate' - вход в виртуальное окружение
 
-'pip install -r requirements.txt' - установка зависимостей
+'poetry shell' - вход в виртуальное окружение
+
+'poetry install' - установка зависимостей
 
 'python manage.py migrate' - выполнить миграции
 
 'python manage.py runserver' - запуск сервера для разработки на 'http://localhost:8000'
+
+'pre-commit install' - установить pre commit hook
+
+'pre-commit run -a' - запуск линтеров вручную
