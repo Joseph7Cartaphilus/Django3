@@ -29,10 +29,10 @@ urlpatterns = [
 ]
 
 urlpatterns += i18n_patterns(
+    path("accounts/", include("allauth.urls")),
     path("pages/", include("django.contrib.flatpages.urls")),
     path("email/", include("contact.urls")),
     path("", include("movie_app.urls")),
 )
-
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

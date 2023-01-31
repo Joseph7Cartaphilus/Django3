@@ -17,6 +17,7 @@ django-ckeditor = "^6.5.1"
 django-recaptcha = "^3.0.0"
 django-modeltranslation = "^0.18.7"
 pre-commit = "^3.0.1"
+django-allauth = "^0.52.0"
 
 
 [tool.poetry.group.dev.dependencies]
