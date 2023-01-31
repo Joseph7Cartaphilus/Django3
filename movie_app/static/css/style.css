@@ -1173,7 +1173,7 @@ h2.logo-2 a {
     letter-spacing: 1px;
 }
 
-/*--contact--*/
+/*--email--*/
 .contact-right-content input[type="text"],
 .contact-right-content input[type="email"],
 .contact-right-content input[type="tel"],
@@ -1238,7 +1238,7 @@ h2.logo-2 a {
     min-height: 10em;
 }
 
-/*--//contact--*/
+/*--//email--*/
 .map-fo iframe {
     min-height: 350px;
     border: none;
@@ -1285,7 +1285,7 @@ a.w3pvt_google {
 
 /* //social-icons */
 
-/* contact address */
+/* email address */
 .contact-info h4,
 h4.sub-con-fo {
     font-size: 0.9em;
@@ -1335,7 +1335,7 @@ ul.w3layouts-icons li a {
     color: #777;
 }
 
-/* //contact address */
+/* //email address */
 
 /* copyright */
 .cpy-right-sec {

@@ -21,7 +21,7 @@ from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("contact/", include("contact.urls")),
+    path("email/", include("contact.urls")),
     path("", include("movie_app.urls")),
     path("pages/", include("django.contrib.flatpages.urls")),
     path("ckeditor/", include("ckeditor_uploader.urls")),
@@ -30,7 +30,7 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     path("pages/", include("django.contrib.flatpages.urls")),
-    path("contact/", include("contact.urls")),
+    path("email/", include("contact.urls")),
     path("", include("movie_app.urls")),
 )
 
