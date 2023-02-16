@@ -1,0 +1,34 @@
+
+C
+movie_app/models.py,4\b\4bb49aa180a405e3b29eea351a5c46342a59a349
+B
+movie_app/tests.py,2\5\2572bb9241d0b38483a74ace64e05fbda8dc8836
+F
+movies_project/asgi.py,7\e\7edd6c5652220872e9edd850f83f5c3ea810f5fb
+B
+movie_app/views.py,a\4\a487e0f1e2ea8b8d301f10fd4d3850f4a9b5e982
+B
+movie_app/admin.py,b\a\ba593292c85af52811830ffb2753c71c38b6ff5f
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+A
+movie_app/apps.py,3\a\3ac9a142a9310275e9b2f740057dfdf86a0eafef
+@
+requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
+E
+movie_app/__init__.py,b\c\bca7cbe9154bcbbab4e7977470a916fe380591e4
+J
+movies_project/settings.py,9\6\96e4fee33c577e8036164f2dabc8843e9983c3fd
+P
+ movie_app/migrations/__init__.py,8\3\8356b94b92fd8eb02e35684bce8b063e138dca49
+F
+movies_project/urls.py,b\b\bbeb876e6cb1febab2f8209c4e3bd077f0cd3e42
+F
+movies_project/wsgi.py,3\5\35c9e66438be4cd240dc40c60f22e2d42a6f33ac
+J
+movies_project/__init__.py,a\d\ad1e3b8fa6a5762c725222c01bb9b9ce32309db8
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+9
+	manage.py,3\1\3156ad13e4d695cd526bbb7b031016ecba842270
